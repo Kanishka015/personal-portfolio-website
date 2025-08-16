@@ -10,7 +10,7 @@ const ProjectsSection: React.FC = () => {
       <div className="container-custom">
         <SectionTitle 
           title="Projects"
-          subtitle="Here are some of my recent projects. Each one was built to solve a specific problem or explore new technologies."
+          subtitle="Here are some of my projects that showcase my skills and creativity. Each one was built to solve a specific problem or explore new technologies."
           center={true}
         />
         

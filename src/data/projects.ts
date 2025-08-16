@@ -12,22 +12,22 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with product management, shopping cart, and payment processing capabilities.",
-    image: "",
-    technologies: ["React", "Node.js"],
-    githubUrl: "https://github.com/yourusername/ecommerce-platform",
-    demoUrl: "https://demo-ecommerce.yourdomain.com",
+    title: "artFinder",
+    description: "This app analyzes competitor data from platforms like YouTube and Reddit to streamline ad creation research. It provides actionable insights into customer pain points and high-performing strategies to build better ads.",
+    image: "artF.png",
+    technologies: ["Python", "FastAPI", "Pandas", "NumPy", "scikit-learn", "NLTK", "TextBlob", "WordCloud", "Chart.js", "PRAW", "Google API Python Client"],
+    githubUrl: "https://github.com/Kanishka015/artFinder",
+    demoUrl: "https://art-finder-ui.vercel.app/",
     featured: true
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A productivity app that helps users organize tasks, set priorities, and track progress with intuitive UI.",
-    image: "https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-    githubUrl: "https://github.com/yourusername/task-manager",
-    demoUrl: "https://task-app.yourdomain.com",
+    title: "Plant Disease Prediction",
+    description: "A machine learning application that identifies plant diseases from images and suggests remedies.",
+    image: "plantd.png",
+    technologies: ["Python", "TensorFlow", "Keras", "Streamlit", "NumPy", "Pandas", "Matplotlib", "Seaborn", "scikit-learn"],
+    githubUrl: "https://github.com/Kanishka015/plant-disease-prediction",
+    demoUrl: "https://plant-disease-prediction.vercel.app/",
     featured: true
   },
   {
@@ -36,8 +36,8 @@ export const projects: Project[] = [
     description: "A weather application that provides real-time forecasts, historical data, and interactive maps.",
     image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     technologies: ["React", "OpenWeather API", "Geolocation API"],
-    githubUrl: "https://github.com/yourusername/weather-app",
-    demoUrl: "https://weather.yourdomain.com",
+    githubUrl: "https://github.com/Kanishka015/Weather-app-python",
+    demoUrl: "https://github.com/Kanishka015/Weather-app-python",
     featured: false
   },
   {
@@ -46,8 +46,8 @@ export const projects: Project[] = [
     description: "A responsive developer portfolio built with React and modern CSS techniques.",
     image: "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-    githubUrl: "https://github.com/yourusername/portfolio",
-    demoUrl: "https://yourdomain.com",
+    githubUrl: "https://github.com/Kanishka015/Kanishka-portfolio-website",
+    demoUrl: "https://kanishkanagr.vercel.app/",
     featured: false
   }
 ];

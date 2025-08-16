@@ -115,7 +115,7 @@ const Navbar: React.FC = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/kanishka-nagar-7102b6257/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-purple-400 transition-colors"

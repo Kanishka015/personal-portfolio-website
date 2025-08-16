@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 import Button from '../components/Button';
 
 const roles = [
-  "Full Stack Developer",
+  "Software Developer",
   "Python Developer",
   "Data Scientist",
   "Prompt Engineer",
@@ -63,7 +63,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto"
           >
-            Building modern, responsive web applications with a focus on clean code and exceptional user experience.
+            Passionate about coding, problem-solving, and creating meaningful tech solutions.
           </motion.p>
           
           <motion.div
@@ -91,7 +91,7 @@ const HeroSection: React.FC = () => {
             className="flex justify-center space-x-4"
           >
             <a
-              href="https://github.com/"
+              href="https://github.com/kanishka015"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-purple-400 transition-colors"
@@ -99,7 +99,7 @@ const HeroSection: React.FC = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/YOUR-USERNAME"
+              href="https://www.linkedin.com/in/kanishka-nagar-7102b6257/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-purple-400 transition-colors"

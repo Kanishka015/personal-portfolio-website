@@ -16,13 +16,30 @@ export interface Skill {
   icon: any;
 }
 
+// Updated skills array with the full tech stack
 export const skills: Skill[] = [
+  // Frontend
   { name: 'React', icon: ReactIcon },
-  { name: 'Python', icon: Python },
-  { name: 'Node.js', icon: NodeJs },
-  { name: 'MongoDB', icon: Database },
   { name: 'TypeScript', icon: Code2 },
-  { name: 'AI/ML', icon: AI },
+  { name: 'Tailwind CSS', icon: Code2 },
+  { name: 'Vite', icon: Code2 },
+
+
+  // Backend
+  { name: 'Node.js', icon: NodeJs },
+  { name: 'Python', icon: Python },
+  { name: 'FastAPI', icon: Python }, // Python-based framework
+
+  // Data Science & Machine Learning
+  { name: 'TensorFlow/Keras', icon: AI },
+  { name: 'scikit-learn', icon: AI },
+  { name: 'Pandas & NumPy', icon: AI },
+  { name: 'Streamlit', icon: Python }, // Python-based app framework
+  
+  // Databases
+  { name: 'MongoDB', icon: Database },
+
+  // DevOps, Cloud & Tools
   { name: 'Git', icon: Git },
   { name: 'Docker', icon: Docker },
   { name: 'AWS', icon: AWS },
